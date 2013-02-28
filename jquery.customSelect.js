@@ -22,7 +22,7 @@
                     var $select = $(el),
                         currentSelected = $select.find(':selected'),
                         customSelectSpan = $select.next(),
-                        customSelectSpanInner = customSelectSpan.children(':first'),
+                        customSelectSpanInner = customSelectSpan.children('.customSelectInner'),
                         html = currentSelected.html() || '&nbsp;';
 
                     customSelectSpanInner.html(html);
